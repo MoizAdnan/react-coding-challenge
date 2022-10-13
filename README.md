@@ -4,9 +4,9 @@
 ## Instructions
 Setting up:
 
-* Run "cd .\react-coding-challenge\" command to go into project folder.
-* Run "npm install" command to install dependencies.
-* Run "npm run start" command to start application.
+* Run  `cd .\react-coding-challenge\` command to go into project folder.
+* Run `npm install` command to install dependencies.
+* Run `npm run start` command to start application.
 
 
 
