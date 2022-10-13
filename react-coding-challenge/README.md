@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# React Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Instructions
+Setting up:
 
-In the project directory, you can run:
+* Run "cd .\react-coding-challenge\" command to go into project folder.
+* Run "npm install" command to install dependencies.
+* Run "npm run start" command to start application.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Description
 
-### `npm test`
+On startup, the first page will be the Dashboard page, here you will find:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Interactable graphs.
+* Stat Panels.
 
-### `npm run build`
+You can switch tabs to Records Page from the navbar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the Records Page, you will find:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Table, which has pagination, can be sorted by clicking arrows next to column headers.
+* Three dots icon next to column headers can be used for hiding columns, sorting and filtering.
+* Filters can be set and data can be searched according to these filters using combo boxes above the table (To view original unfiltered data, clear filters).
+* Details button on the right most column can be clicked to bring out the drawer.
+* Drawer shows all details for an entry, if the data exists.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Libraries used
+* React
+* Material UI
+* ApexCharts
