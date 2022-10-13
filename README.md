@@ -1,70 +1,35 @@
 # React Coding Challenge
 
-At aspaara a squad of superheroes work on giving superpowers to planning teams.
-Through our product dashboard we give insights into data – a true super-vision
-superpower. Join forces with us and build a dashboard of the future!
 
-![aspaara superhero](aspaara_superhero.png)
+## Instructions
+Setting up:
 
-## Goal
+* Run "cd .\react-coding-challenge\" command to go into project folder.
+* Run "npm install" command to install dependencies.
+* Run "npm run start" command to start application.
 
-Create a simple single-page application that allows a planner to get insights
-into client and planning information.
 
-You will find the corresponding data to display in `planning.json`, which
-contains around 10k records.
 
-## Requirements
+## Project Description
 
-Within the application, it should be possible to
+On startup, the first page will be the Dashboard page, here you will find:
 
-* browse all the data that is provided in `planning.json` in a detailed view
-  (for example table view)
-* get an overview of the data with some statistics, for at least on of the
-  following attributes:
-  * booking grade
-  * office city
-  * skills
-  * industry
-* drill down into subsets by means of filtering and/or sorting
+* Interactable graphs.
+* Stat Panels.
 
-## Data Model
+You can switch tabs to Records Page from the navbar.
 
-* ID: integer (unique, required)
-* Original ID: string (unique, required)
-* Talent ID: string (optional)
-* Talent Name: string (optional)
-* Talent Grade: string (optional)
-* Booking Grade: string (optional)
-* Operating Unit: string (required)
-* Office City: string (optional)
-* Office Postal Code: string (required)
-* Job Manager Name: string (optional)
-* Job Manager ID: string (optional)
-* Total Hours: float (required)
-* Start Date: datetime (required)
-* End Date: datetime (required)
-* Client Name: string (optional)
-* Client ID: string (required)
-* Industry: string (optional)
-* Required Skills: array of key-value pair (optional)
-* Optional Skills: array of key-value pair (optional)
-* Is Unassigned: boolean
+On the Records Page, you will find:
 
-## Tech Stack
+* Table, which has pagination, can be sorted by clicking arrows next to column headers.
+* Three dots icon next to column headers can be used for hiding columns, sorting and filtering.
+* Filters can be set and data can be searched according to these filters using combo boxes above the table (To view original unfiltered data, clear filters).
+* Details button on the right most column can be clicked to bring out the drawer.
+* Drawer shows all details for an entry, if the data exists.
 
-* JavaScript or TypeScript
+
+
+## Libraries used
 * React
-* Node (if required)
-
-## Submission
-
-* Please fork the project, commit and push your implementation and add
-  `sundara.amancharla@aspaara.com` as a contributor.
-* Please update the README with any additional details or steps that are
-  requried to run your implementation.
-* We understand that there is a limited amount of time, so it does not have to
-  be perfect or 100% finished. Plan to spend no more than 2-3 hours on it.
-
-For any additional questions on the task please feel free to email
-`sundara.amancharla@aspaara.com`.
+* Material UI
+* ApexCharts

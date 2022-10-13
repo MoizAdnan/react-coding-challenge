@@ -1,0 +1,38 @@
+.Drawer {
+  background-color: var(--foreground);
+  width: 500px;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 3em;
+  color:orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.DataGrid {
+  background-color: white;
+}
+
+.ColumnHeader {
+  -webkit-text-stroke-width: medium;
+}
+
+.Entry {
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  border-bottom: 2px solid;
+  border-color: orange;
+}
+
+.Box {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--background);
+  padding-bottom: 30px;
+  color: black;
+}

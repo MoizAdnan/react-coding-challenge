@@ -1,0 +1,6 @@
+.Card {
+  min-width: 275px;
+  background-color: var(--card) !important;
+  width: 100%;
+  height: 100%;
+}

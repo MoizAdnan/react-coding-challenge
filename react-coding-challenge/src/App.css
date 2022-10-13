@@ -1,0 +1,78 @@
+:root {
+  /* --background: #282c34; */
+  --background: #e8e8e8;
+  --foreground: #333436;
+  /* --card: #434d61; */
+  --card: white;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--background);
+  height: 100%;
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+.Logo {
+  height: auto;
+  width: 60px;
+  margin-right: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: var(--foreground);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-left: 20px;
+  color: white;
+}
+
+.App-loading {
+  background-color: var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100vh;
+}
+
+.App-navbar {
+  background-color: var(--foreground);
+  align-self: end;
+  width: 100%;
+}
+
+.App-tab {
+  width: 500px;
+}
+
+.App-title {
+  font-size: 48px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,22 @@
+.DataGrid {
+  background-color: white;
+}
+
+.Button {
+  color: white !important;
+  background-color: orange !important;
+  -webkit-text-stroke-width: thin;
+}
+
+.Records {
+  padding: 50px;
+}
+
+.columnHeader {
+  -webkit-text-stroke-width: medium;
+}
+
+.Cell {
+  font-size: 0.875em;
+  text-align: left;
+}
